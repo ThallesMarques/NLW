@@ -6,7 +6,7 @@
 }
 
 :root {
-  --hue: 210;
+  --hue: 300;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -725,7 +725,7 @@ footer .social-links {
   footer {
     padding-block: 8rem;
   }
-  
+
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'A B';
@@ -735,13 +735,12 @@ footer .social-links {
     align-self: center;
   }
 
-
   footer .col-b {
     align-self: center;
     justify-self: flex-end;
   }
 
   footer p {
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 }
